@@ -28,7 +28,7 @@ public class AngryTeacher {
 				count--;
 			}
 		}
-		if (count == count -k) {
+		if (count > 0) {
 			return "YES";
 		} else {
 			return "NO";

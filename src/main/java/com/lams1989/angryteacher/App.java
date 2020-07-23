@@ -4,8 +4,8 @@ package com.lams1989.angryteacher;
 public class App {
 	public static void main( String[] args )
     {
-    	int k = 3;
-    	int[]a={-1, -3, 4, 2};// YES 3
+    	int k = 2;
+    	//int[]a={-1, -3, 4, 2};// YES 3
     	//int[]a={0, -1, 2, 1};//NO 2
     	
     	//int[]a= {-93, -86, 49, -62, -90, -63, 40, 72, 11, 67};//NO 4
@@ -15,13 +15,13 @@ public class App {
     	
     	//int[]a= {26, 94, -95, 34, 67, -97, 17, 52, 1, 86} ; //YES 7 hay error 
     	
-    	//int[]a= {19, 29, -17, -71, -75, -27, -56, -53, 65, 83}; //NO 2
+    	int[]a= {19, 29, -17, -71, -75, -27, -56, -53, 65, 83}; //NO 2
     	//int[]a= {-32, -3, -70, 8, -40, -96, -18, -46, -21, -79};//YES 10 
     	//int[]a= {-50, 0, 64, 14, -56, -91, -65, -36, 51, -28};//YES 9
     	//int[]a= {-58, -29, -35, -18, 43, -28, -76, 43, -13, 6};//NO 6 hay error
     	//int[] a= {88, -17, -96, 43, 83, 99, 25, 90, -39, 86};//NO 1
     	
-    	System.out.println(AngryTeacher.angryProfessor(k, a));
+    	System.out.println(AngryTeacher.angryProfessor2(k, a));
     	
     	
     	/*
